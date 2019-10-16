@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <script src="assets/js/script.js"></script>
+  <title>Password Generator</title>
+</head>
+<body>
+ 
+  <div class="container-fluid all">
+    <div class="row">
+      <div class="container-of-generator">
+        <div class="title_text">
+          <h1>"Secure" Password Generator</h1>
+          <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="lock-alt" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-lock-alt fa-w-14 fa-3x"><path fill="#af0000" d="M224 412c-15.5 0-28-12.5-28-28v-64c0-15.5 12.5-28 28-28s28 12.5 28 28v64c0 15.5-12.5 28-28 28zm224-172v224c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V240c0-26.5 21.5-48 48-48h32v-48C80 64.5 144.8-.2 224.4 0 304 .2 368 65.8 368 145.4V192h32c26.5 0 48 21.5 48 48zm-320-48h192v-48c0-52.9-43.1-96-96-96s-96 43.1-96 96v48zm272 48H48v224h352V240z" class=""></path></svg>
+        </div>
+        <div class="container-fluid">
+          <div class="row my_form">
+            <div class="form-group col-sm-7">
+              <label for="formNome">Inserisci il tuo nome:</label>
+              <input type="text" class="form-control" id="formNome" placeholder="Nome">
+            </div>
+            <div class="form-group col-sm-7">
+              <label for="formCognome">Inserisci il tuo cognome:</label>
+              <input type="text" class="form-control" id="formCognome" placeholder="Cognome">
+            </div>
+            <div class="form-group col-sm-7">
+              <label for="formColore">Inserisci il tuo colore preferito:</label>
+              <input type="text" class="form-control" id="formColore" placeholder="Colore preferito">
+            </div>
+            <div class="form-group col-sm-7 generator_my_pass">
+              <button type="button" onclick="generator()" class="btn btn-danger">Generate Password</button>
+              <output type="text" class="form-control" id="formPass" placeholder="Troverai la tua password">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+</body>
+</html>

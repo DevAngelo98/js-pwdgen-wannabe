@@ -1,0 +1,67 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.all{
+  background-color: #1A1C1E;
+  padding: 25px;
+}
+
+.container-of-generator {
+  margin: auto;
+  background-color: #005713;
+  border-radius: 25px;
+  padding: 30px;
+}
+
+.title_text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title_text h1 {
+  color: #fff;
+  text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 8px 7px #001135; 
+  font-family: 'Arial Black', Gadget, sans-serif;
+  margin-right: 30px;
+}
+
+.title_text svg{
+  width: 40px;
+}
+
+.my_form{
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 25px;
+}
+
+.my_form label {
+  color:#1A1C1E;
+  font-weight: bold;
+}
+
+.form-group{
+  margin-bottom: 1.5rem;
+}
+
+.generator_my_pass {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.btn-danger {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 70%;
+  background-color: #af0000;
+}
+
+output {
+  height: 38px;
+}
